@@ -1,10 +1,10 @@
-# 🧠 Predicting Emotional Overeating from Psychological Schemas
+# Predicting Emotional Overeating from Psychological Schemas
 
-A graduate-level data science project exploring the psychological and behavioural predictors of emotional overeating, using a dataset of 1,500 participants across 35 variables.
+Data science project exploring the psychological and behavioural predictors of emotional overeating, using a dataset of 1,500 participants across 35 variables.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project pursues **two analytically distinct goals**:
 
@@ -17,7 +17,7 @@ The study tests the **stress-buffering hypothesis** — that stress translates i
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── eating_behavior_FINAL.ipynb        # ✅ Main analysis notebook (final submission)
@@ -31,7 +31,7 @@ The study tests the **stress-buffering hypothesis** — that stress translates i
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |----------|-------|
@@ -50,7 +50,7 @@ The study tests the **stress-buffering hypothesis** — that stress translates i
 
 ---
 
-## 🔬 Analytical Pipeline
+## Analytical Pipeline
 
 The final notebook (`eating_behavior_FINAL.ipynb`) covers:
 
@@ -73,7 +73,7 @@ The final notebook (`eating_behavior_FINAL.ipynb`) covers:
 
 ---
 
-## 🧪 Key Findings
+## Key Findings
 
 - **Negativity/Mistrust** and **Emotional Deprivation** schemas show the strongest associations with emotional overeating (largest standardised betas, non-overlapping 95% CIs)
 - The **Stress × Emotion-Regulation interaction** term adds predictive signal, supporting the stress-buffering hypothesis
@@ -107,7 +107,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy statsmodels shap 
 jupyter notebook eating_behavior_FINAL.ipynb
 ```
 
-> ⚠️ Make sure the dataset path in the notebook points to `data/eating_behavior_body_weight_dataset.csv`
+> Make sure the dataset path in the notebook points to `data/eating_behavior_body_weight_dataset.csv`
 
 ---
 
@@ -117,24 +117,12 @@ The `archive/` folder contains earlier iterations of the analysis kept for versi
 
 ---
 
-## 🎓 Academic Context
 
-- **Course:** Data Science (Week 4 Assignment)
-- **Program:** PGS (Postgraduate Studies)
-- **Analysis type:** Cross-sectional, observational
-- **Statistical framework:** Frequentist (with bootstrapped uncertainty quantification)
-
----
-
-## ⚠️ Ethical Notes
+## Ethical Notes
 
 - Data is cross-sectional — **no causal claims** are made
 - Schema scores are psychological constructs with **measurement error**
 - Findings should not be used for clinical screening without validation on independent samples
 - Medical and community recruitment groups differ systematically — results may not generalise uniformly
 
----
 
-## 📄 License
-
-This project is submitted as academic coursework. All rights reserved.
