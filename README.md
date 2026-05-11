@@ -20,7 +20,7 @@ The study tests the **stress-buffering hypothesis** — that stress translates i
 ## Repository Structure
 
 ```
-├── eating_behavior_FINAL.ipynb        # ✅ Main analysis notebook (final submission)
+├── eating_behavior_FINAL.ipynb        # Main analysis notebook
 ├── data/
 │   └── eating_behavior_body_weight_dataset.csv   # Dataset (1,500 obs × 35 vars)
 ├── archive/
@@ -97,7 +97,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy statsmodels shap 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/<your-username>/<repo-name>](https://github.com/hoot-doot/Eating-Behavior-Analysis.git
 cd <repo-name>
 
 # 2. Install dependencies
