@@ -1,0 +1,45 @@
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_meta
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── IDE / editors ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Large data files (if you don't want to track raw data in git) ─────────────
+# Uncomment the line below if your CSV is too large for GitHub (>100 MB)
+# data/*.csv
+
+# ── Outputs / artefacts ───────────────────────────────────────────────────────
+outputs/
+figures/
+*.png
+*.pdf
+*.html
+*.log
